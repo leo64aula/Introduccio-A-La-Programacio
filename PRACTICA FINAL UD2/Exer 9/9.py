@@ -8,3 +8,6 @@ except ValueError:
     print("Introdueix un numero enter")
 except IndexError:
     print("La posició no existeix en la llista")
+finally:
+    print("Intent Completat")
+    seleccio= None
