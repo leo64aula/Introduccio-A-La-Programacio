@@ -4,4 +4,4 @@ try:
     resultat = num1 / num2
     print(f"El resultat de la divisió és: {resultat}")
 except ZeroDivisionError:
-    print("Fica un numero valid")
+    print("Fica un Numero Valid")
