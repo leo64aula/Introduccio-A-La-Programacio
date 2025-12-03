@@ -12,11 +12,11 @@ try:
     resta= num1 - num2
     multiplicacio= num1 * num2 
     divisio= num1 / num2
-    print(f"El resultat de la suma de {num1} + {num2} es igual a {suma}")
-    print(f"El resultat de la resta de {num1} + {num2} es igual a {resta}")
-    print(f"El resultat de la multiplicacio de {num1} + {num2} es igual a {multiplicacio}")
-    print(f"El resultat de la divisio de {num1} + {num2} es igual a {divisio}")
+    logging.debug(f"El resultat de la suma de {num1} + {num2} es igual a {suma}")
+    logging.debug(f"El resultat de la resta de {num1} + {num2} es igual a {resta}")
+    logging.debug(f"El resultat de la multiplicacio de {num1} + {num2} es igual a {multiplicacio}")
+    logging.debug(f"El resultat de la divisio de {num1} + {num2} es igual a {divisio}")
 except ZeroDivisionError:
-    print("El numero 0 no es pot dividir, proba un altre")
+    logging.debug("El numero 0 no es pot dividir, proba un altre")
 except ValueError:
-    print("Soles pots ficar numeros enters")
+    logging.debug("Soles pots ficar numeros enters")

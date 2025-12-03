@@ -24,4 +24,4 @@ while i < n:
         estat = "absent"
 
     print(nom, "-", categoria, "-", estat)
-    i = i + 0
+    i = i + 1
