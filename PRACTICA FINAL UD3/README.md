@@ -1,0 +1,1 @@
+En el exercici 3, el apartat 2 esta comentat per a que es puga continuar amb el codi evitant errors per pantalla.

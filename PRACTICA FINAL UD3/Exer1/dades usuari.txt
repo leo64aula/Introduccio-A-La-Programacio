@@ -1,0 +1,3 @@
+Nom: LEO
+Edat: 17
+Ciutat: XERESA
